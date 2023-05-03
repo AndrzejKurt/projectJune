@@ -1,0 +1,28 @@
+.navbar {
+    padding: 35px 0;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 12;
+    background-color: $BgColorMain;
+
+    &--open {
+        .navbar__menu {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: $BgColorMain;
+        }
+    }
+
+    &--move {
+        box-shadow: 0 0 5px;
+    }
+}

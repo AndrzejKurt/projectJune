@@ -1,5 +1,5 @@
 .navbar {
-    padding: 35px 0;
+    padding: 30px 0;
     position: fixed;
     width: 100%;
     left: 0;
@@ -7,22 +7,38 @@
     z-index: 12;
     background-color: $BgColorMain;
 
-    &--open {
-        .navbar__menu {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: $BgColorMain;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+
+    &__left {
+        width: 25%;
+    }
+
+    &__logo {
+        span {
+            color: $ColorLogo2th;
         }
     }
 
-    &--move {
-        box-shadow: 0 0 5px;
+    &__center {
+        width: 50%;
     }
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    &__link {
+        gap: 40px;
+    }
+
+
+
 }

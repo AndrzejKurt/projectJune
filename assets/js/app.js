@@ -5,3 +5,4 @@ window.addEventListener("scroll", () => {
     {navigation.classList.add("navbar--move")}
     else{navigation.classList.remove(navbar--move)}
 })
+

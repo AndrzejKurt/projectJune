@@ -1,0 +1,86 @@
+.testimonial {
+    width: 100%;
+    background-color: $BgColorMain3;
+    padding-top: 20px;
+
+    .container {}
+
+    &__main {
+        p {
+            font-family: $secondFontFamily;
+            font-size: 22px;
+            color: $BgColorMain2;
+            padding: 0 0 5px;
+        }
+
+        h2 {
+            font-family: $mainFontFamily;
+            font-size: 48px;
+            color: $BgColorMain;
+            padding: 0;
+        }
+    }
+
+    &__boxes {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    &__box {
+        width: 40%;
+        background-color: $ColorLogo1st;
+        border-radius: 25px;
+        padding: 48px 36px 30px;
+
+        p {
+            font-family: $secondFontFamily;
+            font-size: 18px;
+            color: $ColorFonts;
+            padding: 0 0 15px;
+        }
+    }
+
+    &__author {
+        display: flex;
+        width: 100%;
+    }
+
+    &__author-profil {
+
+        img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+    }
+
+
+    &__author-info {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+
+        h3 {
+            display: block;
+            font-family: $secondFontFamily;
+            font-size: 24px;
+            color: $BgColorMain;
+            padding: 0;
+        }
+
+        p {
+            display: block;
+            font-family: $secondFontFamily;
+            font-size: 20px;
+            color: $ColorFonts;
+            padding: 0;
+        }
+    }
+
+
+
+
+
+}

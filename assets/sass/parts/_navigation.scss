@@ -1,11 +1,20 @@
 .navbar {
-    padding: 30px 0;
+    display: block;
     position: fixed;
-    width: 100%;
+    z-index: 10;
     left: 0;
     top: 0;
-    z-index: 12;
-    background-color: $BgColorMain;
+    height: 87px;
+    padding: 0;
+    width: 100%;
+    line-height: 27px;
+    background-color: transparent;
+    transition: 300ms;
+
+    &--move {
+        background-color: $BgColorMain;
+        height: 87px;
+    }
 
     .container {
         display: flex;
@@ -14,31 +23,47 @@
         height: 100%;
     }
 
+
     &__left {
-        width: 25%;
+        width: 20%;
     }
 
     &__logo {
+        color: $ColorLogo1st;
+
         span {
             color: $ColorLogo2th;
         }
     }
 
     &__center {
-        width: 50%;
+        width: 60%;
+        padding: 0 300px 0 100px;
     }
 
     &__menu {
         display: flex;
         justify-content: space-between;
         align-items: center;
-
+        list-style-type: none;
+        padding: 0;
     }
 
     &__link {
-        gap: 40px;
+        color: $ColorLogo1st;
+
+        span {
+            color: $ColorLogo2th;
+        }
     }
 
+    &__right {
+        width: 10%;
+    }
 
-
+    &__button {
+        display: inline-block;
+        color: $ColorLogo1st;
+        padding: 0 5px 0 5px;
+    }
 }

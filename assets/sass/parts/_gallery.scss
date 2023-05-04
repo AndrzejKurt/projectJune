@@ -1,0 +1,73 @@
+.gallery {
+    width: 100%;
+    background-color: $BgColorMain3;
+    padding-top: 20px;
+
+    .container {}
+
+    &__main {
+        p {
+            font-family: $secondFontFamily;
+            font-size: 22px;
+            color: $BgColorMain2;
+            margin: 0 0 5px;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: $mainFontFamily;
+            font-size: 48px;
+            color: $BgColorMain;
+            text-align: center;
+            margin: 0;
+        }
+    }
+
+    &__menu {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 24px 300px 40px 0;
+
+
+        a:nth-child(1) {
+            padding-left: 300px;
+            color: $BgColorMain2;
+        }
+
+        a {
+            color: $BgColorMain;
+            padding: 40px 0;
+        }
+    }
+
+    &__photos {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-left: -15px;
+        scale: 109%;
+    }
+
+    &__photos1 {
+        display: flex;
+        align-items: flex-start;
+
+        img {
+            border-radius: 25px;
+            padding: 15px;
+        }
+    }
+
+    &__photos2 {
+        position: relative;
+        bottom: 155px;
+        display: flex;
+        align-items: flex-end;
+
+        img {
+            border-radius: 25px;
+            padding: 15px;
+        }
+    }
+}

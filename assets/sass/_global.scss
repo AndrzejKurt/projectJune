@@ -6,17 +6,20 @@ html {
 body {
     font-family: $secondFontFamily;
     font-size: 18px;
-    color: $ColorLogo1st padding: 200pc 0 0 0;
+    color: $ColorLogo1st;
+    padding: 0;
     overflow-x: hidden;
 }
 
 a {
     text-decoration: none;
+    font-size: 18px;
+    font-family: $secondFontFamily;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
-    width: 100%;
+    width: 1360px;
     padding: 0 15px;
 }

@@ -1,61 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Starter</title>
-    <link rel="stylesheet" href="assets/css/main.css">
-   
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;700&family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Starter</title>
+        <link rel="stylesheet" href="assets/css/main.css">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;700&family=Rubik:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
 
-<body>
+    <body>
 
-    <script src="assets/js/app.js"></script>
-</body>
-    <nav class="navbar">
-        <div class="container">
+        <!-- Navigation -->
 
-            <div class="navbar__left">
-                <a href="#" class="navbar__logo">@axo
-                    <span>.me</span></a>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar__left">
+                    <a href="#" class="navbar__logo">@axo<span>.me</span></a>
+                </div>
+
+                <div class="navbar__center">
+                    <ul class="navbar__menu">
+                        <li><a href="#1" class="navbar__link"><span>Services.</span></a></li>
+                        <li><a href="#2" class="navbar__link">Work</a></li>
+                        <li><a href="#" class="navbar__link">Blog</a></li>
+                        <li><a href="#" class="navbar__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="navbar__right">
+                    <a href="#" class="navbar__button">
+                        <i class="fa-solid fa-basketball"></i>
+                    </a>
+
+                    <a href="#" class="navbar__button">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="navbar__button">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+                    <a href="#" class="navbar__button">
+                        <i class="fa-brands fa-pinterest"></i>
+                    </a>
+                </div>
             </div>
+        </nav>
 
-            <div class="navbar__center">
-                <ul class="navbar__menu">
-                    <li><a href="#" class="navbar__link">Sevices.</a></li>
-                    <li><a href="#" class="navbar__link">Work</a></li>
-                    <li><a href="#" class="navbar__link">Blog</a></li>
-                    <li><a href="#" class="navbar__link">Contact</a></li>
-                </ul>
+    <!-- Portfolio - First page -->
+
+        <section class="portfolio">
+            <div class="container">
+
+                <div class="portfolio__left">
+
+                    <h1>Brandon User Interface Designer</h1>
+                    <p>I'm a Freelance UI/UX Designer and Product Desiger based in London, England. I strives to build immersive and beautiful web applications through carefully crafted code and user-centric design.</p>
+
+                    <a href="#" class = "portfolio__button">Connect with me</a>
+
+                    <div class="portfolio__meter">
+
+                        <div class="portfolio__year">
+                            <h2><span class="count" data-from="0" data-to="7">7</span></h2>
+                            <p>Year Experience</p>
+                        </div>
+
+                        <div class="portfolio__project">
+                            <h2><span class="count" data-from="0" data-to="300">300</span></h2>
+                            <p>Complete Project</p>
+                        </div>
+
+                        <div class="portfolio__client">
+                            <h2><span class="count" data-from="0" data-to="135">135</span></h2>
+                            <p>Happy Client</p>
+                        </div>
+
+                    </div>
+                </div>
+          
+                <div class="portfolio__right">
+                    <img src="assets/img/hero.png" alt="foto">
+                </div>            
             </div>
+        </section>
 
-            <div class="navbar__right">
-                <a href="#" class="navbar__button">
-                    <i class="fa-solid fa-basketball"></i>
-                </a>
+<!-- Services - Second page -->
+        
+        <section class="services">
+            <div class="container">
 
-                <a href="#" class="navbar__button">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
+                <div class="services__main" id="1">
+                    <p>My services</p>
+                    <h2>What I do <br> for My Customers</h2>
+                </div>
 
-                <a href="#" class="navbar__button">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
+                <div class="services__box">
 
-                <a href="#" class="navbar__button">
-                    <i class="fa-brands fa-pinterest"></i>
-                </a>
+                    <div class="services__box-element">
+                        <a href="#" class="services__Ul">
+                            <i class="fa-regular fa-address-card"></i>
+                            <h3>Ul/UX Designer</h3>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                        </a>
+                    </div>
 
+
+                    <div class="services__box-element">
+                        <a href="#" class="services__Webflow">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Webflow Developer</h3>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                        </a>
+                    </div>
+
+                    <div class="services__box-element">
+                        <a href="#" class="product"> 
+                            <i class="fa-solid fa-pen-nib"></i> 
+                            <h3>Product Designer</h3>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+<!-- about - Third page -->
+
+        <section class="about">
+            <div class="container">
+                
+                <div class="about__main">
+
+                    <div class="about__left">
+                        <div class="about__square"></div>
+                        <img src="assets/img/about.png" alt="photo_women">
+                    </div>
+
+                    <div class="about__right">
+                        <p>About me</p>
+                        <h2>Awarded Designer</h2>
+                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without . <br>In publishing and graphic design, Lorem ipsum is a placeholder .In publishing and graphic design, Lorem ipsum is a placeholder .</p>
+
+                        <div class="about__icons">
+                            <a href="#">Read More</a>
+                            <a href="#"><i class="fa-solid fa-circle-play"></i></a>
+                            <span>Watch Video</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- gallery - Fourth page -->
+
+        <section class="gallery">
+            <div class="container">
+                <div class="gallery__main" id="2">
+                    <p>My Portfolio</p>
+                    <h2>Showcasing<br>some of my best work</h2>
+
+                    <div class="gallery__menu">
+                        <a href="#" class="gallery__menu-list">All.</a>
+                        <a href="#" class="gallery__menu-list">Youtube</a>
+                        <a href="#" class="gallery__menu-list">Vimeo</a>
+                        <a href="#" class="gallery__menu-list">Soundcloud</a>
+                        <a href="#" class="gallery__menu-list">Images</a>
+                        <a href="#" class="gallery__menu-list">Detail</a>
+                    </div>
+                
+                    <div class="gallery__photos">
+                        <div class="gallery__photos1">
+                            <a href="#" class = "gallery__photos_a">
+                                <img src="assets/img/1.png" alt="photo1"></a>
+                            <a href="#" class = "gallery__photos_a">
+                                <img src="assets/img/2.png" alt="photo2"></a>
+                            <a href="#" class = "gallery__photos_a">
+                                <img src="assets/img/3.png" alt="photo3"></a>
+                        </div>
+
+                        <div class="gallery__photos2">
+                            <a href="#"><img src="assets/img/4.png" alt="photo4"></a>
+                            <a href="#"><img src="assets/img/5.png" alt="photo5"></a>
+                            <a href="#"><img src="assets/img/6.png" alt="photo6"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- testimonial - Fifth page -->
+
+        <section class="testimonial">
+            <div class="container">
+                <div class="testimonial__main">
+                    <p>Testimonial</p>
+                    <h2>What My<br>Client Say</h2>
+                </div>
+
+                <div class="testimonial__boxes">
+
+                    <div class="testimonial__box">
+                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+
+                        <div class="testimonial__author">
+                            <div class="testimonial__author-profil">
+                                <img src="assets/img/1.jpg" alt="photo_men1">
+                            </div>
+                            <div class="testimonial__author-info">
+                                <h3>Beseie Cooper</h3>
+                                <p>Xyz Company</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial__box">
+                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+
+                    <div class="testimonial__author">
+                        <div class="testimonial__author-profil">
+                            <img src="assets/img/2.jpg" alt="photo_men2">
+                        </div>
+                        <div class="testimonial__author-info">
+                            <h3>Mike Anderson</h3>
+                            <p>Vivaco Studio</p>
+                        </div>
+                    </div>
+
+                
+    
+                    
+                </div>
 
 
             </div>
-        </div>
-    </nav>
+        </section>
+
+        <script src="assets/js/app.js"></script>
+    </body>
 </html>
+

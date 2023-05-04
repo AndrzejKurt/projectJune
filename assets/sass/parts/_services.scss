@@ -1,0 +1,64 @@
+.services {
+    background-color: $BgColorMain3;
+    padding: 120px 0 0;
+
+
+    .container {
+        width: 100%;
+        background-color: $BgColorMain3
+    }
+
+    &__main {
+
+        p {
+            font-family: $mainFontFamily;
+            font-size: 22px;
+            color: $ColorLogo2th;
+            margin: 0 0 5px;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: $secondFontFamily;
+            font-size: 48px;
+            color: $BgColorMain;
+            text-align: center;
+            margin: 0;
+        }
+    }
+
+    &__box {
+        display: flex;
+        gap: 20px;
+        padding: 80px 15px;
+
+
+        i {
+            font-size: 72px;
+            color: $BgColorMain;
+            padding: 30px;
+
+        }
+
+        h3 {
+            font-family: $secondFontFamily;
+            font-size: 24px;
+            color: $BgColorMain;
+            padding: 0 30px;
+        }
+
+        p {
+            font-family: $secondFontFamily;
+            font-size: 18px;
+            color: $ColorFonts;
+            padding: 0 30px;
+            line-height: 1.5;
+
+        }
+    }
+
+    &__box-element {
+        background-color: $ColorLogo1st;
+        border-radius: 25px;
+    }
+}

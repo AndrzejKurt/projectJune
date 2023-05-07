@@ -52,13 +52,28 @@
 
     &__photo {
         width: calc(100%/3);
-
+        height: auto;
 
         img {
+            display: block;
             width: 100%;
             vertical-align: middle;
             border-radius: 25px;
             padding: 15px;
         }
+
+
+
     }
+
+
+
+
+
+
+
+
+
+
+
 }

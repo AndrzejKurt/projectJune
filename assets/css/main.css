@@ -298,7 +298,7 @@ a {
 .navbar {
   display: block;
   position: fixed;
-  z-index: 10;
+  z-index: 100;
   left: 0;
   top: 0;
   height: 87px;
@@ -517,7 +517,7 @@ a {
 .about {
   width: 100%;
   background-color: #F5F6F6;
-  padding: 100px 0 200px 0;
+  padding: 100px 0 100px 0;
 }
 .about .container {
   padding: 0;
@@ -526,14 +526,33 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   width: 100%;
 }
 .about__left {
   width: 60%;
+  height: 500px;
   padding-left: 15px;
 }
 .about__left img {
-  border-radius: 20px;
+  position: relative;
+  top: -270px;
+  left: 0;
+  z-index: 15;
+  border-radius: 25px;
+}
+.about__square {
+  display: block;
+  border-radius: 25px;
+  position: relative;
+  top: 200px;
+  right: 40px;
+  z-index: 10;
+  width: 270px;
+  height: 270px;
+  background-color: #676CDB;
 }
 .about__right p:nth-child(1) {
   font-family: "Rubik", sans-serif;
@@ -642,8 +661,10 @@ a {
 }
 .gallery__photo {
   width: 33.3333333333%;
+  height: auto;
 }
 .gallery__photo img {
+  display: block;
   width: 100%;
   vertical-align: middle;
   border-radius: 25px;
@@ -856,6 +877,7 @@ a {
   background-color: #676CDB;
   border-radius: 25px;
   padding: 100px 50px 50px;
+  margin-bottom: 100px;
 }
 .contact__form-group {
   color: #ffffff;
@@ -898,4 +920,32 @@ a {
 }
 .contact__form-group *:focus {
   outline: 0 !important;
+}
+
+.footer {
+  background-color: #676CDB;
+  padding: 20px;
+}
+.footer__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 1.5;
+  background-color: #676CDB;
+}
+.footer__icon {
+  margin: 0 auto;
+  padding: 20px;
+}
+.footer__icon i {
+  padding: 0 5px;
+}
+.footer p {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  margin: 0 auto;
 }

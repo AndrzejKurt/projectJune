@@ -9,12 +9,12 @@
     &__main {
         width: 100%;
         display: flex;
-
     }
 
     &__left {
 
         width: 50%;
+
 
         p:nth-child(1) {
             color: $BgColorMain2;
@@ -59,6 +59,7 @@
         background-color: $BgColorMain2;
         border-radius: 25px;
         padding: 100px 50px 50px;
+        margin-bottom: 100px;
 
     }
 

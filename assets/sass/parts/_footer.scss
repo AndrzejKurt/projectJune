@@ -1,0 +1,30 @@
+.footer {
+    background-color: $BgColorMain2;
+    padding: 20px;
+
+    .container {}
+
+    &__main {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.5;
+        background-color: $BgColorMain2
+    }
+
+    &__icon {
+        margin: 0 auto;
+        padding: 20px;
+
+        i {
+            padding: 0 5px;
+        }
+
+
+    }
+
+    p {
+        font-family: $secondFontFamily;
+        font-size: 18px;
+        margin: 0 auto;
+    }
+}

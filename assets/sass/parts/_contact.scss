@@ -1,0 +1,109 @@
+.contact {
+    background-color: $BgColorMain3;
+    padding-top: 200px;
+
+    .container {
+        background-color: $BgColorMain3;
+    }
+
+    &__main {
+        width: 100%;
+        display: flex;
+
+    }
+
+    &__left {
+
+        width: 50%;
+
+        p:nth-child(1) {
+            color: $BgColorMain2;
+        }
+
+        p {
+            font-family: $secondFontFamily;
+            font-size: 22px;
+            margin: 0 0 5px;
+            color: $ColorFonts;
+            padding: 0 0 15px;
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        h2 {
+            font-family: $mainFontFamily;
+            font-size: 48px;
+            color: $BgColorMain;
+            margin: 0;
+            padding-bottom: 50px;
+        }
+
+        h4 {
+            font-size: 22px;
+            font-family: $secondFontFamily;
+            color: $BgColorMain;
+            padding: 0;
+            margin: 0;
+            line-height: 1.5;
+        }
+
+    }
+
+    &__right {
+        width: 50%;
+    }
+
+    &__form {
+        display: block;
+        width: 100%;
+        background-color: $BgColorMain2;
+        border-radius: 25px;
+        padding: 100px 50px 50px;
+
+    }
+
+    &__form-group {
+
+        color: $ColorLogo1st;
+
+        ::placeholder {
+            color: $ColorLogo1st;
+        }
+
+
+        input,
+        textarea {
+            width: 100%;
+            color: $ColorLogo1st;
+            font-family: $secondFontFamily;
+            font-size: 18px;
+            background: transparent;
+            padding: 15px 0;
+            margin-bottom: 40px;
+            border: none;
+            border-bottom: 1.5px solid #a6a6a6;
+        }
+
+        button {
+            padding: 20px;
+            border-radius: 25px;
+            background-color: $BgColorMain;
+            color: $ColorLogo1st;
+            font-size: 18px;
+            margin: 0 auto;
+            display: block;
+        }
+
+        *:focus {
+            outline: 0 !important;
+        }
+
+    }
+
+
+
+
+
+
+
+}

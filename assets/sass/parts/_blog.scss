@@ -1,0 +1,84 @@
+.blog {
+    background-color: $BgColorMain3;
+    padding-top: 100px;
+
+    .container {
+
+        background-color: $BgColorMain3;
+    }
+
+    &__main {
+
+        p {
+            font-family: $secondFontFamily;
+            font-size: 22px;
+            color: $BgColorMain2;
+            margin: 0 0 5px;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: $mainFontFamily;
+            font-size: 48px;
+            color: $BgColorMain;
+            text-align: center;
+            margin: 0;
+            padding-bottom: 50px;
+        }
+
+    }
+
+    &__boxes {
+        width: 100%;
+        display: flex;
+        gap: 30px;
+
+    }
+
+    &__box {
+        background-color: $ColorLogo1st;
+        border-radius: 25px;
+        width: calc(100%/3);
+
+
+        img {
+            border-radius: 25px;
+            width: 100%;
+            padding-bottom: 30px;
+        }
+
+        p {
+            font-family: $secondFontFamily;
+            font-size: 18px;
+            padding: 0;
+            color: $ColorFonts;
+        }
+    }
+
+    span {
+        color: $BgColorMain2;
+    }
+
+    a {
+        font-family: $secondFontFamily;
+        font-size: 22px;
+        color: $BgColorMain;
+        line-height: 1.5;
+
+    }
+
+    h4 {
+        padding: 0 30px 10px 30px;
+        margin: 0;
+    }
+
+    p {
+        padding: 0 30px 10px;
+        margin: 0;
+
+    }
+
+
+
+
+}
